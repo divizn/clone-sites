@@ -22,7 +22,7 @@ const MainSection = () => {
         <div className="absolute bg-red-500 right-0 text-white z-50 pt-[0.25rem] px-[0.5rem] md:text-base md:p-1 md:px-4 rounded-sm md:mr-10 text-[0.9rem] top-0 mt-5 mr-4">
           <a href="https://www.netflix.com/gb/login">Sign In</a>
         </div>
-        <div className="absolute top-24 z-50 md:top-64 md:left-0 md:right-0">
+        <div className="absolute top-24 z-50 md:top-64 left-0 right-0">
           <div className="flex flex-col items-center">
             <div className="md:w-[36rem]">
               <h1 className="text-white md:text-5xl text-center font-semibold z-50 text-3xl">
@@ -39,12 +39,22 @@ const MainSection = () => {
                 Ready to watch? Enter your email to create or restart your
                 membership.
               </p>
-              <input
-                type="email"
-                placeholder="Email address"
-                className="p-3 w-full mt-2"
-              />
-              <div className="md:hidden flex bg-red-500 text-white z-50 p-2 text-[0.9rem] whitespace-nowrap mt-5 mr-4">
+              <div className="flex w-full">
+                <input
+                  type="email"
+                  placeholder="Email address"
+                  className="p-3 w-full"
+                />
+                <div className="h-full hidden xs:flex xs:visible bg-red-500 text-white z-50 p-4 text-[0.9rem] whitespace-nowrap">
+                  <a href="https://www.netflix.com/signup/registration">
+                    Get Started
+                  </a>
+                  <div className="mt-[0.4rem] ml-1 text-xs">
+                    <SlArrowRight />
+                  </div>
+                </div>
+              </div>
+              <div className="flex xs:hidden bg-red-500 text-white z-50 p-2 text-[0.9rem] whitespace-nowrap mt-5 mr-4">
                 <a href="https://www.netflix.com/signup/registration">
                   Get Started
                 </a>
