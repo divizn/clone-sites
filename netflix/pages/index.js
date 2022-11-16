@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import MainSection from '../components/MainSection'
 import Plan from '../components/Plan'
+import TVSection from '../components/TVSection'
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       </Head>
       <Plan />
       <MainSection />
-      {/**<TVSection /> */}
+      <TVSection />
       {/**<EverywhereSection /> */}
       {/**<ProfilesSection /> */}
       {/**<OfflineSection /> */}
