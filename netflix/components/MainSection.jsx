@@ -30,12 +30,12 @@ const MainSection = () => {
               </h1>
             </div>
             <div className="">
-              <p className="text-white md:text-2xl mt-5 text-center">
+              <p className="text-white md:text-2xl md:font-[500] mt-5 text-center">
                 Watch anywhere. Cancel at any time.
               </p>
             </div>
             <div className="flex flex-col w-72 md:w-[36rem] items-center">
-              <p className="text-white mt-5 text-center">
+              <p className="text-white mt-5 text-center md:font-[500] mb-2">
                 Ready to watch? Enter your email to create or restart your
                 membership.
               </p>
