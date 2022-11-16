@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import MainSection from '../components/MainSection'
 import Plan from '../components/Plan'
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Plan />
-      {/**<MainSection /> */}
+      <MainSection />
       {/**<TVSection /> */}
       {/**<EverywhereSection /> */}
       {/**<ProfilesSection /> */}
