@@ -6,7 +6,7 @@ import { SlArrowRight } from "react-icons/sl";
 
 const MainSection = () => {
   return (
-    <section className="border-b-8 border-neutral-800">
+    <section className="sectionBorder">
       <div className="absolute grad h-[420px] md:h-[650px] z-30 w-screen bg-white"></div>
       <div className="w-full h-auto relative">
         <Image

@@ -29,3 +29,7 @@ a {
     rgba(0, 0, 0, 0.929306722689075) 86%
   );
 }
+
+.sectionBorder {
+  @apply border-b-8 border-neutral-800;
+}
