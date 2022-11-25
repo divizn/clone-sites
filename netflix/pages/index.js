@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import EverywhereSection from '../components/EverywhereSection'
-import MainSection from '../components/MainSection'
 import Plan from '../components/Plan'
-import ProfilesSection from '../components/ProfilesSection'
+import MainSection from '../components/MainSection'
+import EverywhereSection from '../components/EverywhereSection'
 import TVSection from '../components/TVSection'
+import ProfileSection from '../components/ProfileSection'
 import OfflineSection from '../components/OfflineSection'
 import FAQSection from '../components/FAQSection'
 import Footer from '../components/Footer'
@@ -21,11 +21,8 @@ export default function Home() {
       <MainSection />
       <TVSection />
       <EverywhereSection />
-      <ProfilesSection />
+      <ProfileSection />
       <OfflineSection />
-      <FAQSection />
-      <Footer />
-
     </div>
   )
 }
