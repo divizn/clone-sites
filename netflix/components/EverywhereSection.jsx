@@ -6,7 +6,7 @@ const EverywhereSection = () => {
   return (
     <section className="sectionBorder">
       <div className="flex flex-col-reverse justify-center md:flex-row pt-[50px] px-[5%] w-full">
-        <Image src={devicePile} alt="device-pile" />
+        <Image src={devicePile} alt="device-pile" className="mb-12" />
         <div className="flex flex-col max-w-xl xs:ml-24">
           <h1 className="text-white text-center xs:mt-20 xs:text-5xl xs:mb-8 xs:text-start font-semibold pb-1 text-[1.625rem]">
             Watch everywhere.
