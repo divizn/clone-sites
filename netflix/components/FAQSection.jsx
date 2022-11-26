@@ -103,7 +103,7 @@ const FAQSection = () => {
         <h1 className="text-white text-center mt-10 mb-4 xs:mt-20 xs:text-5xl xs:mb-8 font-semibold pb-1 text-[1.625rem]">
           Frequently Asked Questions
         </h1>
-        <div className="flex flex-col xs:w-[70%]">
+        <div className="flex flex-col xs:w-[70%] md:w-[45%]">
           {FAQItems ? (
             FAQItems.map((i) => (
               <FAQItem
