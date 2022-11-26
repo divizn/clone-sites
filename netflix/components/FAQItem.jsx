@@ -8,15 +8,15 @@ const FAQItem = ({ title, description }) => {
       <div className="flex w-full mb-2 flex-col">
         <div
           onClick={() => setIsOpen((open = !open))}
-          className="w-full flex bg-neutral-700 py-3 px-6 text-xl"
+          className="w-full flex justify-between bg-neutral-700 py-3 px-6 text-xl"
         >
           <div className="text-white">{title}</div>
           {isOpen ? (
-            <div className="text-white text-2xl absolute right-0 mr-4 translate-y-[-3px] font-thin">
+            <div className="text-white text-2xl xs:mr-4 translate-y-[-5px] font-thin">
               X
             </div>
           ) : (
-            <div className="text-white text-4xl absolute right-0 mr-4 translate-y-[-10px] font-thin">
+            <div className="text-white text-4xl  xs:mr-4 translate-y-[-5px] font-thin">
               +
             </div>
           )}
