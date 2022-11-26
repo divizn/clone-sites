@@ -24,6 +24,7 @@ export default function Home() {
       <ProfileSection />
       <OfflineSection />
       <FAQSection />
+      <Footer />
     </div>
   )
 }
