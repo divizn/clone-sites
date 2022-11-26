@@ -23,6 +23,7 @@ export default function Home() {
       <EverywhereSection />
       <ProfileSection />
       <OfflineSection />
+      <FAQSection />
     </div>
   )
 }
